@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/officeolympicsdb
+    jdbcUrl: jdbc:postgresql://localhost:5432/officeolympicsdb
+    username: postgres
+    password:
+
+
+springdoc:
+  swagger-ui:
+    config-url: /v3/api-docs/swagger-config
+    url: /v3/api-docs
